@@ -6,7 +6,7 @@ import os
 import sys
 
 #if True enable operation logging
-logEnabled = True
+logEnabled = False
 
 #log info to xbmc logging system
 def LOG(msg):
@@ -70,18 +70,9 @@ def CHECK(t):
         text = word_resolver.text(text)
         text = text.upper()
         text = unicode(text).encode('utf-8')
-        LOG('D0')
-        LOG(t)
-        LOG('D1')        
-        LOG(text)
-        LOG('D2')
-        LOG(t)
         if not text == t:
-            LOG('D3')
             if not t == unicode('').encode('utf-8'):
-                LOG('D4')
                 if unicode(cmd_command).encode('utf-8') in text:
-                    LOG('D5')
                     WAKE()                  
     except:
         LOG(str(sys.exc_info()[0]))
@@ -102,12 +93,10 @@ def WAIT():
 text_old = unicode('').encode('utf-8')
 
 while (not xbmc.abortRequested):
-    if settings.getSetting("enable_service") == 'true':
-        t = CHECK(text_old)
-        LOG('D6')
-        text_old = t 
-        LOG('D7')       
-        try:            
+    if settings.getSetting("enable_service") == 'true':            
+        try:
+            t = CHECK(text_old)
+            text_old = t            
             WAIT()
         except:
             xbmc.sleep(1000*60)

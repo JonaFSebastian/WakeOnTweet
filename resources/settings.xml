@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="51000">
+    <setting id="enable_service" type="bool" label="51001" default="true" />
+	<setting id="checkInterval" type="number" label="51002" default="60" />
+	<setting id="autostart" type="bool" label="51003"  default="false" />
+    </category>
+	<category label="52000">
+		<setting id="macAddress" type="text" label="52001" default="00:11:d8:22:19:1f" />
+		<setting id="separator1" type="lsep" label="52002"/>
+		<setting id="netDest" type="ipaddress" label="52003" default="255.255.255.255" />
+		<setting id="netBroadcast" type="ipaddress" label="52004" default="255.255.255.255" />
+		<setting id="netPort" type="number" label="52005" default="9" />
+	</category>
+	<category label="53000">
+		<setting id="screenName" type="text" label="53001" default=""/>		
+		<setting id="separator2" type="lsep" label="53002"/>
+		<setting id="tweetText" type="text" label="53003" default="WakeMyPC" />
+	</category>
+</settings>

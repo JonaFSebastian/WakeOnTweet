@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+	<string id="51000">Basic settings</string>
+	<string id="51001">Enable service</string>
+	<string id="51002">Check interval in seconds</string>
+	<string id="51003">Autostart</string>
+	
+	<string id="52000">PC to wake on tweet</string>
+	<string id="52001">Ethernet MAC-address</string>
+	<string id="52002">Leave following setting to default value if not sure</string>
+	<string id="52003">NET destination</string>
+	<string id="52004">NET broadcast</string>
+	<string id="52005">NET port</string>
+
+	<string id="53000">Tweeter account</string>
+	<string id="53001">Screen name</string>
+	<string id="53002">Tweet must start with this text (case insensitive)</string>
+	<string id="53003">Tweet text</string>	
+
+	<string id="60000">Checking account</string>
+	<string id="60001">Sending WOL to MAC</string>	
+</strings>

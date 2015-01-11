@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+	<string id="51000">Generale</string>
+	<string id="51001">Abilita il servizio</string>
+	<string id="51002">Intervallo di controllo in secondi</string>
+	<string id="51003">Avvio automatico</string>
+	
+	<string id="52000">PC da risvegliare con un tweet</string>
+	<string id="52001">Ethernet MAC-address</string>
+	<string id="52002">Parametri avanzati</string>
+	<string id="52003">NET destination</string>
+	<string id="52004">NET broadcast</string>
+	<string id="52005">NET port</string>
+
+	<string id="53000">Account Tweeter</string>
+	<string id="53001">Screen name</string>
+	<string id="53002">Il Tweet deve iniziare con questo testo</string>
+	<string id="53003">Testo del Tweet</string>
+
+	<string id="60000">Controllo account</string>
+	<string id="60001">Invio WOL a MAC</string>	
+</strings>
